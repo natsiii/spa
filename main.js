@@ -19,7 +19,6 @@ Object.entries(posts).forEach(([key, value]) => {
 });
 
 function router() {
-  console.log("RENDER!!!!");
   const view = routes[location.pathname];
 
   if (view) {
